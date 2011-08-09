@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js" type="text/javascript"></script> 
+  <script src="./jquery.mortgagecalc.js" type="text/javascript"></script> 
+</head>
+<body>
+<h1>Simple Mortgage Calculator </h1>
+<div class="mcalc"></div>
+<script>
+$(document).ready(function(){
+   // Your code here
+  var params = {
+    price: '300000',
+    down_payment: '30000'
+  }
+  $('.mcalc').mortgagecalc(params);
+});
+</script>
+<body>
+</html>
