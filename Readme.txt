@@ -51,7 +51,7 @@ $(document).ready(function(){
     loan_term: 15,
     interest_rate: 3.25,
   }
-  $('.mcalc').mortgagecalc(params);
+  $('.calc').mortgagecalc(params);
 });
 </script>
 
