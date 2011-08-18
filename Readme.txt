@@ -25,7 +25,7 @@ $(document).ready(function(){
     price: 300000,
     down_payment: 30000
   }
-  $('.mcalc').mortgagecalc(params);
+  $('#calc').mortgagecalc(params);
 });
 </script>
 
@@ -51,7 +51,7 @@ $(document).ready(function(){
     loan_term: 15,
     interest_rate: 3.25,
   }
-  $('.calc').mortgagecalc(params);
+  $('#calc').mortgagecalc(params);
 });
 </script>
 
