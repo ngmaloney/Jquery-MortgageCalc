@@ -5,7 +5,7 @@
  *
 **********************************************************************/
 jquery.mortgagecalc.js is a quick and dirty javascript based mortgage
-calculator. It uses the following formulat to calculate interest:
+calculator. It uses the following formula to calculate interest:
 
 PAYMENT = PRICE x INTEREST / (1 – (1 + INTEREST)^–TERM)
 
